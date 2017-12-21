@@ -74,7 +74,7 @@ print "Done! Tally is: {0}".format(counter)
 
 
 for y in range(35):
-    print ''.join(['{0:>3}'.format(node_dict[(x, y)].used) for x in range(29)])
+    print ''.join(['{0:>4}'.format(node_dict[(x, y)].used) for x in range(29)])
 
 
 
@@ -89,3 +89,5 @@ for y in range(35):
 #             counter += 1
 
 # print "Done! Tally is: {0}".format(counter)
+
+# 185 by hand (whew)
